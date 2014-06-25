@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import "TanakaGameView.h"
+#import "Course.h"
 #import "TanakaKeyboardDelegate.h"
 
 #define FPS 60.0
 
 @interface TanakaGameController : NSObject <TanakaKeyboardDelegate> {
 	TanakaGameView *gameView;
+	Course *course;
+	
 	NSTimer * frameTimer;
 	
 	bool keys_left, keys_right, keys_up;

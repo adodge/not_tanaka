@@ -11,7 +11,7 @@
 
 @implementation TanakaGameView
 
-@synthesize keyboardDelegate;
+@synthesize keyboardDelegate,course;
 
 - (BOOL)acceptsFirstResponder {
     return YES;
@@ -34,36 +34,15 @@
 }
 
 void drawCircle(int n, float z, float r){
-	glPushMatrix();
-	
-	glTranslatef(0, 0, -z);
 	glBegin(GL_QUADS);
-	for(float i=0;i<M_PI*2-.1;){
-		glColor3f(1,((int)z % 11)/11.0,((int)z % 10)/10.0);
+	for(float i=0;i<M_PI*2-M_PI/(n);i+=M_PI/(n/2)){
 		float i2 = i+M_PI/(n/2);
-		glVertex3f(cos(i)*r,sin(i)*r,0);
-		glVertex3f(cos(i2)*r,sin(i2)*r,0);
-		glVertex3f(cos(i2)*r,sin(i2)*r,4);
-		glVertex3f(cos(i)*r,sin(i)*r,4);
-		i=i2;
+		glVertex3f(cos(i)*r,sin(i)*r,z/2);
+		glVertex3f(cos(i2)*r,sin(i2)*r,z/2);
+		glVertex3f(cos(i2)*r,sin(i2)*r,-z/2);
+		glVertex3f(cos(i)*r,sin(i)*r,-z/2);
 	}
 	glEnd();
-	
-	glPopMatrix();
-}
-
-void drawRays(int n, float z0, float z1, float r){
-	glPushMatrix();
-		
-	glBegin(GL_LINES);
-	glColor3f(1,1,1);
-	for(float i=0;i<M_PI*2;i+=M_PI/(n/2)){
-		glVertex3f(cos(i)*r,sin(i)*r,-z0);
-		glVertex3f(cos(i)*r,sin(i)*r,-z1);
-	}
-	glEnd();
-	
-	glPopMatrix();
 }
 
 -(void) drawRect: (NSRect) bounds {
@@ -78,18 +57,35 @@ void drawRays(int n, float z0, float z1, float r){
 	
 	NSRect b = [self bounds];
 	glLoadIdentity();
-	gluPerspective(30, b.size.width/b.size.height, .1, 400);
+	gluPerspective(60, b.size.width/b.size.height, .1, 400);
 	glViewport(0, 0, b.size.width, b.size.height);
 	
 	glPushMatrix();
 	
-	glTranslatef(0,2,distance);
+	int segmentid = [course getSegmentIdForDistance:distance];
+	TanakaCourseSegment * s1 = [course segment:segmentid];
+	TanakaCourseSegment * s2 = [course segment:segmentid+1];
+	float d = (distance-s1->dfromstart)/s1->d;
+	
+	float *matrixinterpolated, matrix[16];
+	matrixinterpolated = interpolateMatrices(s1->facingmatrix, s2->facingmatrix, d);
+	invertMat(matrixinterpolated, matrix);
+	free(matrixinterpolated);
+	
+	glTranslatef(0,s1->r-1,0);
 	glRotatef(rotation, 0, 0, 1);
 	
-	for(int i=floor(distance)-((int)floor(distance)%4);i<distance+100;i+=4){
-		drawCircle(10, i, 3);
+	glMultMatrixf(matrix);
+	
+	for(int i=0;i<[course nsegments];i++){
+		TanakaCourseSegment * s = [course segment:i];
+		
+		glPushMatrix();
+			glMultMatrixf(s->matrix);
+			glColor3f(1,((int)i % 13)/13.0,((int)i % 11)/11.0);
+			drawCircle(10, 1, s->r);
+		glPopMatrix();
 	}
-	drawRays(10,distance, distance+100,3);
 	
 	glPopMatrix();
 	

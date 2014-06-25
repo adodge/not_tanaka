@@ -16,7 +16,11 @@
 	keys_left = keys_right = keys_up = NO;
 	player_rotation = player_distance = 0;
 	
+	course = [[Course alloc] init];
+	[course circularTrackWithRadius:300 andSegments:500];
+	
 	[gameView setKeyboardDelegate:self];
+	[gameView setCourse:course];
 	frameTimer = [NSTimer scheduledTimerWithTimeInterval:(1.0/FPS) target:self selector:@selector(frame:) userInfo:nil repeats:YES];
 }
 
@@ -27,7 +31,11 @@
 	if(keys_right){
 		player_rotation -= 90/(FPS);
 	}
-	player_distance += 30/(FPS);
+	if(!keys_up){
+		player_distance += 30/(FPS);
+	}
+	while(player_distance > [course totalDistance]) player_distance -= [course totalDistance]; // Loop track
+	
 	[gameView setPlayerAngle:player_rotation Distance:player_distance];
 }
 

@@ -11,6 +11,8 @@
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
 #include <math.h>
+#import "Course.h"
+#include "vector.h"
 
 #import "TanakaKeyboardDelegate.h"
 
@@ -18,10 +20,12 @@
 	float rotation;
 	float distance;
 	id <TanakaKeyboardDelegate> keyboardDelegate;
+	Course * course;
 }
 
 -(void) setPlayerAngle:(float)rot Distance:(float)dist;
 
 @property (retain) id keyboardDelegate;
+@property (retain) Course * course;
 
 @end

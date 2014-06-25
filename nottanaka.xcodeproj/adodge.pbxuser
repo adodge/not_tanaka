@@ -16,10 +16,11 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = B10D0EE41209346B0033DB90 /* nottanaka */;
 		activeTarget = 8D1107260486CEB800E47090 /* nottanaka */;
 		addToTargets = (
+			8D1107260486CEB800E47090 /* nottanaka */,
 		);
 		codeSenseManager = B10D0EF6120934730033DB90 /* Code sense */;
 		executables = (
@@ -48,20 +49,24 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 302647664;
-			PBXWorkspaceStateSaveDate = 302647664;
+			PBXPerProjectTemplateStateSaveDate = 302725694;
+			PBXWorkspaceStateSaveDate = 302725694;
 		};
 		perUserProjectItems = {
 			B10D0F3A12093AB50033DB90 /* PBXTextBookmark */ = B10D0F3A12093AB50033DB90 /* PBXTextBookmark */;
 			B10D0F3B12093AB50033DB90 /* PBXTextBookmark */ = B10D0F3B12093AB50033DB90 /* PBXTextBookmark */;
 			B10D0F3C12093AB50033DB90 /* PBXTextBookmark */ = B10D0F3C12093AB50033DB90 /* PBXTextBookmark */;
 			B10D0FF8120940100033DB90 /* PlistBookmark */ = B10D0FF8120940100033DB90 /* PlistBookmark */;
-			B10D11D212094E540033DB90 /* PBXTextBookmark */ = B10D11D212094E540033DB90 /* PBXTextBookmark */;
-			B10D11DC12094EEE0033DB90 /* PBXTextBookmark */ = B10D11DC12094EEE0033DB90 /* PBXTextBookmark */;
-			B171E403120A0C40008B7A65 /* PBXTextBookmark */ = B171E403120A0C40008B7A65 /* PBXTextBookmark */;
-			B171E404120A0C40008B7A65 /* PBXTextBookmark */ = B171E404120A0C40008B7A65 /* PBXTextBookmark */;
-			B171E405120A0C40008B7A65 /* PBXTextBookmark */ = B171E405120A0C40008B7A65 /* PBXTextBookmark */;
-			B171E406120A0C40008B7A65 /* PBXTextBookmark */ = B171E406120A0C40008B7A65 /* PBXTextBookmark */;
+			B14F810D120B3ADA00736365 /* PBXTextBookmark */ = B14F810D120B3ADA00736365 /* PBXTextBookmark */;
+			B14F810F120B3ADA00736365 /* PBXTextBookmark */ = B14F810F120B3ADA00736365 /* PBXTextBookmark */;
+			B14F8158120B3DA200736365 /* PBXTextBookmark */ = B14F8158120B3DA200736365 /* PBXTextBookmark */;
+			B14F8159120B3DA200736365 /* PBXTextBookmark */ = B14F8159120B3DA200736365 /* PBXTextBookmark */;
+			B14F815A120B3DA200736365 /* PBXTextBookmark */ = B14F815A120B3DA200736365 /* PBXTextBookmark */;
+			B14F815B120B3DA200736365 /* PBXTextBookmark */ = B14F815B120B3DA200736365 /* PBXTextBookmark */;
+			B14F819F120B566600736365 /* PBXTextBookmark */ = B14F819F120B566600736365 /* PBXTextBookmark */;
+			B14F81A0120B566600736365 /* PBXTextBookmark */ = B14F81A0120B566600736365 /* PBXTextBookmark */;
+			B14F81A4120B567500736365 /* PBXTextBookmark */ = B14F81A4120B567500736365 /* PBXTextBookmark */;
+			B1713D68120AAA8400E2D654 /* PBXTextBookmark */ = B1713D68120AAA8400E2D654 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B10D0EF5120934730033DB90 /* Source Control */;
 		userBuildSettings = {
@@ -126,16 +131,16 @@
 	};
 	B10D0EF81209351F0033DB90 /* TanakaGameView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1147, 560}}";
-			sepNavSelRange = "{480, 0}";
-			sepNavVisRange = "{0, 528}";
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 529}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 621}";
 		};
 	};
 	B10D0EF91209351F0033DB90 /* TanakaGameView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1147, 1625}}";
-			sepNavSelRange = "{1027, 0}";
-			sepNavVisRange = "{395, 849}";
+			sepNavIntBoundsRect = "{{0, 0}, {600, 1391}}";
+			sepNavSelRange = "{1492, 0}";
+			sepNavVisRange = "{1348, 473}";
 		};
 	};
 	B10D0F3A12093AB50033DB90 /* PBXTextBookmark */ = {
@@ -170,16 +175,16 @@
 	};
 	B10D0FA712093CCE0033DB90 /* TanakaGameController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1147, 545}}";
-			sepNavSelRange = "{255, 0}";
-			sepNavVisRange = "{0, 532}";
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 535}}";
+			sepNavSelRange = "{382, 0}";
+			sepNavVisRange = "{0, 570}";
 		};
 	};
 	B10D0FA812093CCE0033DB90 /* TanakaGameController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1147, 676}}";
-			sepNavSelRange = "{513, 0}";
-			sepNavVisRange = "{143, 851}";
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 741}}";
+			sepNavSelRange = "{667, 0}";
+			sepNavVisRange = "{216, 998}";
 		};
 	};
 	B10D0FF8120940100033DB90 /* PlistBookmark */ = {
@@ -196,12 +201,12 @@
 	};
 	B10D10D1120949690033DB90 /* TanakaKeyboardDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {910, 494}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 529}}";
 			sepNavSelRange = "{191, 38}";
 			sepNavVisRange = "{0, 236}";
 		};
 	};
-	B10D11D212094E540033DB90 /* PBXTextBookmark */ = {
+	B14F810D120B3ADA00736365 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D10D1120949690033DB90 /* TanakaKeyboardDelegate.h */;
 		name = "TanakaKeyboardDelegate.h: 11";
@@ -211,54 +216,122 @@
 		vrLen = 236;
 		vrLoc = 0;
 	};
-	B10D11DC12094EEE0033DB90 /* PBXTextBookmark */ = {
+	B14F810F120B3ADA00736365 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0EF81209351F0033DB90 /* TanakaGameView.h */;
-		name = "TanakaGameView.h: 23";
+		name = "TanakaGameView.h: 15";
 		rLen = 0;
-		rLoc = 480;
+		rLoc = 299;
 		rType = 0;
-		vrLen = 528;
+		vrLen = 621;
 		vrLoc = 0;
 	};
-	B171E403120A0C40008B7A65 /* PBXTextBookmark */ = {
+	B14F8158120B3DA200736365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1713B6A120A7BDD00E2D654 /* Course.h */;
+		name = "Course.h: 37";
+		rLen = 13;
+		rLoc = 795;
+		rType = 0;
+		vrLen = 816;
+		vrLoc = 0;
+	};
+	B14F8159120B3DA200736365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1713BB1120A90D800E2D654 /* vector.c */;
+		name = "vector.c: 48";
+		rLen = 76;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 462;
+	};
+	B14F815A120B3DA200736365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1713BB0120A90D800E2D654 /* vector.h */;
+		name = "vector.h: 27";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	B14F815B120B3DA200736365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B1713B6B120A7BDD00E2D654 /* Course.m */;
+		name = "Course.m: 107";
+		rLen = 0;
+		rLoc = 2558;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 1824;
+	};
+	B14F819F120B566600736365 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0EF91209351F0033DB90 /* TanakaGameView.m */;
-		name = "TanakaGameView.m: 59";
+		name = "TanakaGameView.m: 85";
 		rLen = 0;
-		rLoc = 1027;
+		rLoc = 1871;
 		rType = 0;
-		vrLen = 849;
-		vrLoc = 395;
+		vrLen = 1073;
+		vrLoc = 1213;
 	};
-	B171E404120A0C40008B7A65 /* PBXTextBookmark */ = {
+	B14F81A0120B566600736365 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0FA812093CCE0033DB90 /* TanakaGameController.m */;
-		name = "TanakaGameController.m: 21";
+		name = "TanakaGameController.m: 36";
 		rLen = 0;
-		rLoc = 513;
+		rLoc = 817;
 		rType = 0;
-		vrLen = 851;
-		vrLoc = 143;
+		vrLen = 998;
+		vrLoc = 216;
 	};
-	B171E405120A0C40008B7A65 /* PBXTextBookmark */ = {
+	B14F81A4120B567500736365 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B10D0FA812093CCE0033DB90 /* TanakaGameController.m */;
+		name = "TanakaGameController.m: 27";
+		rLen = 0;
+		rLoc = 667;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 216;
+	};
+	B1713B6A120A7BDD00E2D654 /* Course.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 529}}";
+			sepNavSelRange = "{795, 13}";
+			sepNavVisRange = "{0, 816}";
+		};
+	};
+	B1713B6B120A7BDD00E2D654 /* Course.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 1599}}";
+			sepNavSelRange = "{2558, 0}";
+			sepNavVisRange = "{1824, 1024}";
+		};
+	};
+	B1713BB0120A90D800E2D654 /* vector.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 529}}";
+			sepNavSelRange = "{517, 0}";
+			sepNavVisRange = "{0, 597}";
+		};
+	};
+	B1713BB1120A90D800E2D654 /* vector.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 1066}}";
+			sepNavSelRange = "{692, 76}";
+			sepNavVisRange = "{462, 829}";
+		};
+	};
+	B1713D68120AAA8400E2D654 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0FA712093CCE0033DB90 /* TanakaGameController.h */;
-		name = "TanakaGameController.h: 15";
+		name = "TanakaGameController.h: 18";
 		rLen = 0;
-		rLoc = 322;
+		rLoc = 382;
 		rType = 0;
-		vrLen = 532;
-		vrLoc = 0;
-	};
-	B171E406120A0C40008B7A65 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B10D0FA712093CCE0033DB90 /* TanakaGameController.h */;
-		name = "TanakaGameController.h: 13";
-		rLen = 0;
-		rLoc = 255;
-		rType = 0;
-		vrLen = 532;
+		vrLen = 570;
 		vrLoc = 0;
 	};
 }

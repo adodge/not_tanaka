@@ -14,6 +14,8 @@
 		B10D0EFA1209351F0033DB90 /* TanakaGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B10D0EF91209351F0033DB90 /* TanakaGameView.m */; };
 		B10D0F1F12093AAD0033DB90 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D0F1E12093AAD0033DB90 /* OpenGL.framework */; };
 		B10D0FA912093CCE0033DB90 /* TanakaGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10D0FA812093CCE0033DB90 /* TanakaGameController.m */; };
+		B1713B6C120A7BDD00E2D654 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = B1713B6B120A7BDD00E2D654 /* Course.m */; };
+		B1713BB2120A90D800E2D654 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = B1713BB1120A90D800E2D654 /* vector.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		B10D0FA712093CCE0033DB90 /* TanakaGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanakaGameController.h; sourceTree = "<group>"; };
 		B10D0FA812093CCE0033DB90 /* TanakaGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanakaGameController.m; sourceTree = "<group>"; };
 		B10D10D1120949690033DB90 /* TanakaKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanakaKeyboardDelegate.h; sourceTree = "<group>"; };
+		B1713B6A120A7BDD00E2D654 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		B1713B6B120A7BDD00E2D654 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		B1713BB0120A90D800E2D654 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		B1713BB1120A90D800E2D654 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B1713BB0120A90D800E2D654 /* vector.h */,
+				B1713BB1120A90D800E2D654 /* vector.c */,
+				B1713B6A120A7BDD00E2D654 /* Course.h */,
+				B1713B6B120A7BDD00E2D654 /* Course.m */,
 				B10D10D1120949690033DB90 /* TanakaKeyboardDelegate.h */,
 				B10D0EF81209351F0033DB90 /* TanakaGameView.h */,
 				B10D0EF91209351F0033DB90 /* TanakaGameView.m */,
@@ -188,6 +198,8 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				B10D0EFA1209351F0033DB90 /* TanakaGameView.m in Sources */,
 				B10D0FA912093CCE0033DB90 /* TanakaGameController.m in Sources */,
+				B1713B6C120A7BDD00E2D654 /* Course.m in Sources */,
+				B1713BB2120A90D800E2D654 /* vector.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
