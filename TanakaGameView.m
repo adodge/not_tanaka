@@ -37,10 +37,15 @@ void drawCircle(int n, float z, float r){
 	glPushMatrix();
 	
 	glTranslatef(0, 0, -z);
-	glBegin(GL_LINE_LOOP);
-	glColor3f(0,1,0);
-	for(float i=0;i<M_PI*2;i+=M_PI/(n/2)){
+	glBegin(GL_QUADS);
+	for(float i=0;i<M_PI*2-.1;){
+		glColor3f(1,((int)z % 11)/11.0,((int)z % 10)/10.0);
+		float i2 = i+M_PI/(n/2);
 		glVertex3f(cos(i)*r,sin(i)*r,0);
+		glVertex3f(cos(i2)*r,sin(i2)*r,0);
+		glVertex3f(cos(i2)*r,sin(i2)*r,4);
+		glVertex3f(cos(i)*r,sin(i)*r,4);
+		i=i2;
 	}
 	glEnd();
 	
@@ -51,7 +56,7 @@ void drawRays(int n, float z0, float z1, float r){
 	glPushMatrix();
 		
 	glBegin(GL_LINES);
-	glColor3f(.25,1,0);
+	glColor3f(1,1,1);
 	for(float i=0;i<M_PI*2;i+=M_PI/(n/2)){
 		glVertex3f(cos(i)*r,sin(i)*r,-z0);
 		glVertex3f(cos(i)*r,sin(i)*r,-z1);

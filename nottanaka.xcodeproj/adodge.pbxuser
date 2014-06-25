@@ -48,8 +48,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 302601396;
-			PBXWorkspaceStateSaveDate = 302601396;
+			PBXPerProjectTemplateStateSaveDate = 302647664;
+			PBXWorkspaceStateSaveDate = 302647664;
 		};
 		perUserProjectItems = {
 			B10D0F3A12093AB50033DB90 /* PBXTextBookmark */ = B10D0F3A12093AB50033DB90 /* PBXTextBookmark */;
@@ -58,10 +58,10 @@
 			B10D0FF8120940100033DB90 /* PlistBookmark */ = B10D0FF8120940100033DB90 /* PlistBookmark */;
 			B10D11D212094E540033DB90 /* PBXTextBookmark */ = B10D11D212094E540033DB90 /* PBXTextBookmark */;
 			B10D11DC12094EEE0033DB90 /* PBXTextBookmark */ = B10D11DC12094EEE0033DB90 /* PBXTextBookmark */;
-			B10D12A8120953DA0033DB90 /* PBXTextBookmark */ = B10D12A8120953DA0033DB90 /* PBXTextBookmark */;
-			B10D12A9120953DA0033DB90 /* PBXTextBookmark */ = B10D12A9120953DA0033DB90 /* PBXTextBookmark */;
-			B10D12B91209548E0033DB90 /* PBXTextBookmark */ = B10D12B91209548E0033DB90 /* PBXTextBookmark */;
-			B10D12D4120954D30033DB90 /* PBXTextBookmark */ = B10D12D4120954D30033DB90 /* PBXTextBookmark */;
+			B171E403120A0C40008B7A65 /* PBXTextBookmark */ = B171E403120A0C40008B7A65 /* PBXTextBookmark */;
+			B171E404120A0C40008B7A65 /* PBXTextBookmark */ = B171E404120A0C40008B7A65 /* PBXTextBookmark */;
+			B171E405120A0C40008B7A65 /* PBXTextBookmark */ = B171E405120A0C40008B7A65 /* PBXTextBookmark */;
+			B171E406120A0C40008B7A65 /* PBXTextBookmark */ = B171E406120A0C40008B7A65 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B10D0EF5120934730033DB90 /* Source Control */;
 		userBuildSettings = {
@@ -133,9 +133,9 @@
 	};
 	B10D0EF91209351F0033DB90 /* TanakaGameView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {544, 1417}}";
-			sepNavSelRange = "{2119, 0}";
-			sepNavVisRange = "{1575, 322}";
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 1625}}";
+			sepNavSelRange = "{1027, 0}";
+			sepNavVisRange = "{395, 849}";
 		};
 	};
 	B10D0F3A12093AB50033DB90 /* PBXTextBookmark */ = {
@@ -170,16 +170,16 @@
 	};
 	B10D0FA712093CCE0033DB90 /* TanakaGameController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1147, 555}}";
-			sepNavSelRange = "{322, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 545}}";
+			sepNavSelRange = "{255, 0}";
 			sepNavVisRange = "{0, 532}";
 		};
 	};
 	B10D0FA812093CCE0033DB90 /* TanakaGameController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1147, 676}}";
-			sepNavSelRange = "{678, 0}";
-			sepNavVisRange = "{144, 855}";
+			sepNavSelRange = "{513, 0}";
+			sepNavVisRange = "{143, 851}";
 		};
 	};
 	B10D0FF8120940100033DB90 /* PlistBookmark */ = {
@@ -221,27 +221,27 @@
 		vrLen = 528;
 		vrLoc = 0;
 	};
-	B10D12A8120953DA0033DB90 /* PBXTextBookmark */ = {
+	B171E403120A0C40008B7A65 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0EF91209351F0033DB90 /* TanakaGameView.m */;
-		name = "TanakaGameView.m: 54";
+		name = "TanakaGameView.m: 59";
 		rLen = 0;
-		rLoc = 864;
+		rLoc = 1027;
 		rType = 0;
-		vrLen = 959;
-		vrLoc = 1165;
+		vrLen = 849;
+		vrLoc = 395;
 	};
-	B10D12A9120953DA0033DB90 /* PBXTextBookmark */ = {
+	B171E404120A0C40008B7A65 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0FA812093CCE0033DB90 /* TanakaGameController.m */;
-		name = "TanakaGameController.m: 30";
+		name = "TanakaGameController.m: 21";
 		rLen = 0;
-		rLoc = 678;
+		rLoc = 513;
 		rType = 0;
-		vrLen = 855;
-		vrLoc = 144;
+		vrLen = 851;
+		vrLoc = 143;
 	};
-	B10D12B91209548E0033DB90 /* PBXTextBookmark */ = {
+	B171E405120A0C40008B7A65 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0FA712093CCE0033DB90 /* TanakaGameController.h */;
 		name = "TanakaGameController.h: 15";
@@ -251,12 +251,12 @@
 		vrLen = 532;
 		vrLoc = 0;
 	};
-	B10D12D4120954D30033DB90 /* PBXTextBookmark */ = {
+	B171E406120A0C40008B7A65 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B10D0FA712093CCE0033DB90 /* TanakaGameController.h */;
-		name = "TanakaGameController.h: 15";
+		name = "TanakaGameController.h: 13";
 		rLen = 0;
-		rLoc = 322;
+		rLoc = 255;
 		rType = 0;
 		vrLen = 532;
 		vrLoc = 0;
